@@ -1,0 +1,12 @@
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\bin\Debug\CalculadoraIMC.exe.config
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\bin\Debug\CalculadoraIMC.exe
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\bin\Debug\CalculadoraIMC.pdb
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.csproj.AssemblyReference.cache
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.FrmPrincipal.resources
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.FrmCalculos.resources
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.Properties.Resources.resources
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.csproj.GenerateResource.cache
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.exe
+C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.pdb
