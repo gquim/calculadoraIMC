@@ -35,6 +35,7 @@
             this.LblAltura = new System.Windows.Forms.Label();
             this.TxtEdad = new System.Windows.Forms.TextBox();
             this.LblEdad = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCalcular
@@ -102,12 +103,23 @@
             this.LblEdad.TabIndex = 9;
             this.LblEdad.Text = "Edad";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(308, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 24);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Ingresar datos";
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lime;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnCalcular);
             this.Controls.Add(this.TxtPESO);
             this.Controls.Add(this.LblPeso);
@@ -117,6 +129,7 @@
             this.Controls.Add(this.LblEdad);
             this.Name = "FrmPrincipal";
             this.Text = "Datos";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +144,7 @@
         private System.Windows.Forms.Label LblAltura;
         private System.Windows.Forms.TextBox TxtEdad;
         private System.Windows.Forms.Label LblEdad;
+        private System.Windows.Forms.Label label1;
     }
 }
 
