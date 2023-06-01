@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.BtnCalcular = new System.Windows.Forms.Button();
-            this.TxtPESO = new System.Windows.Forms.TextBox();
+            this.Txtpeso = new System.Windows.Forms.TextBox();
             this.LblPeso = new System.Windows.Forms.Label();
             this.TxtAltura = new System.Windows.Forms.TextBox();
             this.LblAltura = new System.Windows.Forms.Label();
             this.TxtEdad = new System.Windows.Forms.TextBox();
             this.LblEdad = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.Lblcm = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCalcular
@@ -49,13 +50,13 @@
             this.BtnCalcular.Text = "Calcular";
             this.BtnCalcular.UseVisualStyleBackColor = false;
             // 
-            // TxtPESO
+            // Txtpeso
             // 
-            this.TxtPESO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtPESO.Location = new System.Drawing.Point(365, 210);
-            this.TxtPESO.Name = "TxtPESO";
-            this.TxtPESO.Size = new System.Drawing.Size(97, 29);
-            this.TxtPESO.TabIndex = 14;
+            this.Txtpeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txtpeso.Location = new System.Drawing.Point(365, 210);
+            this.Txtpeso.Name = "Txtpeso";
+            this.Txtpeso.Size = new System.Drawing.Size(97, 29);
+            this.Txtpeso.TabIndex = 14;
             // 
             // LblPeso
             // 
@@ -113,15 +114,26 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Ingresar datos";
             // 
+            // Lblcm
+            // 
+            this.Lblcm.AutoSize = true;
+            this.Lblcm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lblcm.Location = new System.Drawing.Point(468, 166);
+            this.Lblcm.Name = "Lblcm";
+            this.Lblcm.Size = new System.Drawing.Size(32, 20);
+            this.Lblcm.TabIndex = 17;
+            this.Lblcm.Text = "cm";
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Lblcm);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnCalcular);
-            this.Controls.Add(this.TxtPESO);
+            this.Controls.Add(this.Txtpeso);
             this.Controls.Add(this.LblPeso);
             this.Controls.Add(this.TxtAltura);
             this.Controls.Add(this.LblAltura);
@@ -138,13 +150,14 @@
         #endregion
 
         private System.Windows.Forms.Button BtnCalcular;
-        private System.Windows.Forms.TextBox TxtPESO;
+        private System.Windows.Forms.TextBox Txtpeso;
         private System.Windows.Forms.Label LblPeso;
         private System.Windows.Forms.TextBox TxtAltura;
         private System.Windows.Forms.Label LblAltura;
         private System.Windows.Forms.TextBox TxtEdad;
         private System.Windows.Forms.Label LblEdad;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Lblcm;
     }
 }
 
