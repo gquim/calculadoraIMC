@@ -1,6 +1,6 @@
 ﻿namespace CalculadoraIMC
 {
-    partial class Form2
+    partial class FrmCalculos
     {
         /// <summary>
         /// Required designer variable.
@@ -96,10 +96,11 @@
             this.LblIndicador.TabIndex = 12;
             this.LblIndicador.Text = "IBM";
             // 
-            // Form2
+            // FrmCalculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnGuardadr);
@@ -107,8 +108,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblIndicador);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "FrmCalculos";
+            this.Text = "Calculos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CalculadoraIMC
 {
-    public partial class Form2 : Form
+    public partial class FrmCalculos : Form
     {
-        public Form2()
+        public FrmCalculos()
         {
             InitializeComponent();
         }
