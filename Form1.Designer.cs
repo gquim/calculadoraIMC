@@ -1,6 +1,6 @@
 ﻿namespace CalculadoraIMC
 {
-    partial class Form1
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,7 +41,7 @@
             // 
             this.BtnCalcular.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BtnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCalcular.Location = new System.Drawing.Point(364, 285);
+            this.BtnCalcular.Location = new System.Drawing.Point(327, 294);
             this.BtnCalcular.Name = "BtnCalcular";
             this.BtnCalcular.Size = new System.Drawing.Size(155, 62);
             this.BtnCalcular.TabIndex = 15;
@@ -102,10 +102,11 @@
             this.LblEdad.TabIndex = 9;
             this.LblEdad.Text = "Edad";
             // 
-            // Form1
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BtnCalcular);
             this.Controls.Add(this.TxtPESO);
@@ -114,8 +115,8 @@
             this.Controls.Add(this.LblAltura);
             this.Controls.Add(this.TxtEdad);
             this.Controls.Add(this.LblEdad);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmPrincipal";
+            this.Text = "Datos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
