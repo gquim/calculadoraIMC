@@ -12,6 +12,7 @@ namespace CalculadoraIMC
 {
     public partial class FrmPrincipal : Form
     {
+        generalClass claseGeneral = new generalClass();
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -19,6 +20,12 @@ namespace CalculadoraIMC
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void BtnCalcular_Click(object sender, EventArgs e)
+        {
+            
 
         }
     }

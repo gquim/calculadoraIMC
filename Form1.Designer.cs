@@ -49,6 +49,7 @@
             this.BtnCalcular.TabIndex = 15;
             this.BtnCalcular.Text = "Calcular";
             this.BtnCalcular.UseVisualStyleBackColor = false;
+            this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
             // 
             // Txtpeso
             // 
