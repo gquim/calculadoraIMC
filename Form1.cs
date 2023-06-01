@@ -25,7 +25,15 @@ namespace CalculadoraIMC
 
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
+         
+            string edad = TxtEdad.Text;
+            string altura = TxtAltura.Text;
+            string peso = Txtpeso.Text;
             
+            TxtEdad.Text = "";
+            TxtAltura.Text = "";
+            Txtpeso.Text = "";
+
 
         }
     }

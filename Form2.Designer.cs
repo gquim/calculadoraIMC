@@ -66,6 +66,7 @@
             this.LblValor.Size = new System.Drawing.Size(96, 24);
             this.LblValor.TabIndex = 15;
             this.LblValor.Text = "--- 28.0 --";
+            this.LblValor.Click += new System.EventHandler(this.LblValor_Click);
             // 
             // label1
             // 
@@ -106,6 +107,7 @@
             this.BtnRegresar.TabIndex = 19;
             this.BtnRegresar.Text = "Regresar";
             this.BtnRegresar.UseVisualStyleBackColor = true;
+            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
             // 
             // FrmCalculos
             // 

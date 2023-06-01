@@ -21,5 +21,23 @@ namespace CalculadoraIMC
         {
 
         }
+
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            string icm = LblValor.Text;
+            string excedente = LblExcedente.Text;
+            string estado = LblEstado.Text;
+
+            LblValor.Text = "";
+            LblExcedente.Text = "";
+            LblEstado.Text = "";
+
+
+        }
+
+        private void LblValor_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
