@@ -32,7 +32,36 @@ namespace CalculadoraIMC
 
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
-         
+            double EdadN;
+            bool si = double.TryParse(TxtEdad.Text, out EdadN);
+            if (si == false)
+            {
+                MessageBox.Show("Ha ingresado un valor incorrecto");
+                TxtEdad.Focus();
+                TxtEdad.Text = "";
+                return;
+            }
+
+            double alturaN;
+            bool siAltura = double.TryParse(TxtAltura.Text, out alturaN);
+            if (siAltura == false)
+            {
+                MessageBox.Show("Ha ingresado un valor incorrecto");
+                TxtAltura.Focus();
+                TxtAltura.Text = "";
+                return;
+            }
+
+            double pesoN; 
+            bool sipeso = double.TryParse(Txtpeso.Text, out pesoN);
+            if (sipeso == false)
+            {
+                MessageBox.Show("Ha ingresado un valor incorrecto");
+                Txtpeso.Focus();
+                Txtpeso.Text = "";
+                return;
+            }
+
             string edad = TxtEdad.Text;
             string altura = TxtAltura.Text;
             string peso = Txtpeso.Text;
@@ -58,6 +87,11 @@ namespace CalculadoraIMC
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void TxtEdad_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
