@@ -32,6 +32,11 @@ namespace CalculadoraIMC
 
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
+            //Form form = new Form();
+            FrmCalculos frmCalculos = new FrmCalculos();
+            //frmCalculos.LblValor.Text
+            double resultado;
+
             double EdadN;
             bool si = double.TryParse(TxtEdad.Text, out EdadN);
             if (si == false)
@@ -42,7 +47,7 @@ namespace CalculadoraIMC
                 return;
             }
 
-            double alturaN;
+            double alturaN = Convert.ToDouble ( TxtAltura.Text);
             bool siAltura = double.TryParse(TxtAltura.Text, out alturaN);
             if (siAltura == false)
             {
@@ -52,7 +57,7 @@ namespace CalculadoraIMC
                 return;
             }
 
-            double pesoN; 
+            double pesoN = Convert.ToDouble(Txtpeso.Text); 
             bool sipeso = double.TryParse(Txtpeso.Text, out pesoN);
             if (sipeso == false)
             {
@@ -61,16 +66,47 @@ namespace CalculadoraIMC
                 Txtpeso.Text = "";
                 return;
             }
+            resultado = Math.Round( Math.Pow( pesoN,2)/alturaN,2) ;
+            frmCalculos.LblValor.Text = "----" + resultado.ToString() + "----";
 
-            string edad = TxtEdad.Text;
-            string altura = TxtAltura.Text;
-            string peso = Txtpeso.Text;
-            
+            //double valor = Convert.ToDouble(frmCalculos. LblValor.Text);
+            double excedente = Convert.ToDouble(frmCalculos.LblExcedente.Text);
+
+            if (resultado < 18.5)
+            {
+                excedente = 18.5 - resultado;
+                frmCalculos. LblExcedente.Text = "-" + Convert.ToString(excedente);
+                frmCalculos.LblEstado.Text = "Peso inferior al normal";
+            }
+            if (resultado > 18.5 && resultado < 24.9)
+            {
+                frmCalculos.LblExcedente.Text = "___";
+                frmCalculos.LblEstado.Text = "Peso normal";
+            }
+            if (resultado > 25 && resultado < 29.9)
+            {
+                excedente = resultado - 24.9;
+                frmCalculos.LblExcedente.Text = "+" + Convert.ToString(excedente);
+                frmCalculos.LblEstado.Text = "Peso superior al normal";
+            }
+            if (resultado > 30)
+            {
+                excedente = resultado - 24.9;
+                frmCalculos.LblExcedente.Text = "+" + Convert.ToString(excedente);
+                frmCalculos.LblEstado.Text = "Obesidad";
+            }
+
+
+            //   string edad = TxtEdad.Text;
+            // string altura = TxtAltura.Text;
+            //string peso = Txtpeso.Text;
+
             TxtEdad.Text = "";
             TxtAltura.Text = "";
             Txtpeso.Text = "";
 
-
+            frmCalculos.Show();
+            
         }
 
         private void FrmPrincipal_MouseDown(object sender, MouseEventArgs e)
