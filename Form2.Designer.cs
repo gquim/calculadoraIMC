@@ -59,7 +59,7 @@
             this.LblIndicador.Name = "LblIndicador";
             this.LblIndicador.Size = new System.Drawing.Size(52, 24);
             this.LblIndicador.TabIndex = 12;
-            this.LblIndicador.Text = "ICM:";
+            this.LblIndicador.Text = "IMC:";
             // 
             // LblValor
             // 
@@ -90,11 +90,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(155, 158);
+            this.label3.Location = new System.Drawing.Point(187, 158);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 24);
+            this.label3.Size = new System.Drawing.Size(111, 24);
             this.label3.TabIndex = 17;
-            this.label3.Text = "EXCEDENTE:";
+            this.label3.Text = "BALANCE:";
             // 
             // LblExcedente
             // 

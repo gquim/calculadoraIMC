@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -27,6 +28,7 @@ namespace CalculadoraIMC
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
+            txtNombre.Focus();
         }
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
@@ -34,7 +36,7 @@ namespace CalculadoraIMC
             FrmCalculos frmCalculos = new FrmCalculos();
             //frmCalculos.LblValor.Text
             double resultado;
-
+            
             double EdadN;
             bool si = double.TryParse(TxtEdad.Text, out EdadN);
             if (si == false)
@@ -121,6 +123,13 @@ namespace CalculadoraIMC
         private void TxtEdad_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNuevosDatos_Click(object sender, EventArgs e)
+        {
+            txtAlias.Clear();
+            txtNombre.Clear(); 
+            
         }
     }
 }
