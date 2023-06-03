@@ -46,10 +46,6 @@ namespace CalculadoraIMC
 
         private void BtnRegresar_Click(object sender, EventArgs e)
         {
-            //string icm = LblValor.Text;
-            //string excedente = LblExcedente.Text;
-            //string estado = LblEstado.Text;
-
             LblValor.Text = "";
             LblExcedente.Text = "";
             LblEstado.Text = "";
@@ -63,35 +59,7 @@ namespace CalculadoraIMC
         }
 
         private void FrmCalculos_Load(object sender, EventArgs e)
-        {
-            /*double valor = Convert.ToDouble(LblValor.Text);    
-            double excedente = Convert.ToDouble (LblExcedente.Text);
-
-            if(valor < 18.5)
-            {
-                excedente = 18.5 - valor;
-                LblExcedente.Text = "-" + Convert.ToString(excedente);
-                LblEstado.Text = "Peso inferior al normal";
-            }
-            if(valor > 18.5 && valor < 24.9)
-            {
-                LblExcedente.Text = "___";
-                LblEstado.Text = "Peso normal";
-            }
-            if (valor > 25 && valor < 29.9)
-            {
-                excedente = valor - 24.9;
-                LblExcedente.Text = "+" + Convert.ToString(excedente);
-                LblEstado.Text = "Peso superior al normal";
-            }           
-            if (valor > 30)
-            {
-                excedente = valor - 24.9;
-                LblExcedente.Text = "-----";
-                LblEstado.Text = "Obesidad";
-            }
-            LblValor.Text = valor.ToString();
-            */
+        {            
         }
     }
 }

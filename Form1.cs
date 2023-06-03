@@ -27,9 +27,7 @@ namespace CalculadoraIMC
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-
         }
-
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
             //Form form = new Form();
@@ -69,7 +67,6 @@ namespace CalculadoraIMC
             resultado = Math.Round( Math.Pow( pesoN,2)/alturaN,2) ;
             frmCalculos.LblValor.Text = "----" + resultado.ToString() + "----";
 
-            //double valor = Convert.ToDouble(frmCalculos. LblValor.Text);
             double excedente = Convert.ToDouble(frmCalculos.LblExcedente.Text);
 
             if (resultado < 18.5)
@@ -96,10 +93,6 @@ namespace CalculadoraIMC
                 frmCalculos.LblEstado.Text = "Obesidad";
             }
 
-
-            //   string edad = TxtEdad.Text;
-            // string altura = TxtAltura.Text;
-            //string peso = Txtpeso.Text;
 
             TxtEdad.Text = "";
             TxtAltura.Text = "";
