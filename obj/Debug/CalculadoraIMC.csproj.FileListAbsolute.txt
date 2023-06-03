@@ -10,3 +10,15 @@ C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\Calculadora
 C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
 C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.exe
 C:\Users\adolf\OneDrive\Escritorio\Proyecto\calculadoraIMC\obj\Debug\CalculadoraIMC.pdb
+C:\Users\hp\Documents\prgra\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe.config
+C:\Users\hp\Documents\prgra\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe
+C:\Users\hp\Documents\prgra\CalculadoraIMC\bin\Debug\CalculadoraIMC.pdb
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.FrmPrincipal.resources
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.FrmCalculos.resources
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.Properties.Resources.resources
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.GenerateResource.cache
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.exe
+C:\Users\hp\Documents\prgra\CalculadoraIMC\obj\Debug\CalculadoraIMC.pdb

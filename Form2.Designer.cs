@@ -117,13 +117,9 @@
             this.BtnRegresar.Name = "BtnRegresar";
             this.BtnRegresar.Size = new System.Drawing.Size(177, 66);
             this.BtnRegresar.TabIndex = 19;
-<<<<<<< HEAD
-            this.BtnRegresar.Text = "Regresar";
-            this.BtnRegresar.UseVisualStyleBackColor = true;
-            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
-=======
             this.BtnRegresar.Text = "REGRESAR";
             this.BtnRegresar.UseVisualStyleBackColor = false;
+            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
             // 
             // BtnMinimizar
             // 
@@ -154,7 +150,6 @@
             this.BtnCerrar.TabIndex = 20;
             this.BtnCerrar.UseVisualStyleBackColor = false;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
->>>>>>> 7fba74c141409992f9b255b0575f737387a607c9
             // 
             // FrmCalculos
             // 
@@ -175,6 +170,7 @@
             this.Name = "FrmCalculos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculos";
+            this.Load += new System.EventHandler(this.FrmCalculos_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FrmCalculos_MouseDown);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -182,14 +178,14 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label LblEstado;
         private System.Windows.Forms.Label LblIndicador;
-        private System.Windows.Forms.Label LblValor;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label LblExcedente;
         private System.Windows.Forms.Button BtnRegresar;
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Button BtnMinimizar;
+        public System.Windows.Forms.Label LblValor;
+        public System.Windows.Forms.Label LblEstado;
+        public System.Windows.Forms.Label LblExcedente;
     }
 }
