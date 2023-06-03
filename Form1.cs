@@ -32,11 +32,8 @@ namespace CalculadoraIMC
         }
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
-            //Form form = new Form();
             FrmCalculos frmCalculos = new FrmCalculos();
-            //frmCalculos.LblValor.Text
-            double resultado;
-            
+            double resultado;            
             double EdadN;
             bool si = double.TryParse(TxtEdad.Text, out EdadN);
             if (si == false)
@@ -56,7 +53,6 @@ namespace CalculadoraIMC
                 TxtAltura.Text = "";
                 return;
             }
-
             double pesoN = Convert.ToDouble(Txtpeso.Text); 
             bool sipeso = double.TryParse(Txtpeso.Text, out pesoN);
             if (sipeso == false)
@@ -68,9 +64,7 @@ namespace CalculadoraIMC
             }
             resultado = Math.Round( Math.Pow( pesoN,2)/alturaN,2) ;
             frmCalculos.LblValor.Text = "----" + resultado.ToString() + "----";
-
             double excedente = Convert.ToDouble(frmCalculos.LblExcedente.Text);
-
             if (resultado < 18.5)
             {
                 excedente = 18.5 - resultado;
@@ -94,14 +88,10 @@ namespace CalculadoraIMC
                 frmCalculos.LblExcedente.Text = "+" + Convert.ToString(excedente);
                 frmCalculos.LblEstado.Text = "Obesidad";
             }
-
-
             TxtEdad.Text = "";
             TxtAltura.Text = "";
             Txtpeso.Text = "";
-
-            frmCalculos.Show();
-            
+            frmCalculos.Show();           
         }
 
         private void FrmPrincipal_MouseDown(object sender, MouseEventArgs e)
@@ -119,17 +109,13 @@ namespace CalculadoraIMC
         {
             this.Close();
         }
-
         private void TxtEdad_TextChanged(object sender, EventArgs e)
         {
-
         }
-
         private void btnNuevosDatos_Click(object sender, EventArgs e)
         {
             txtAlias.Clear();
-            txtNombre.Clear(); 
-            
+            txtNombre.Clear();             
         }
     }
 }

@@ -25,9 +25,7 @@ namespace CalculadoraIMC
         // ************************************************
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
-
         private void BtnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -50,14 +48,10 @@ namespace CalculadoraIMC
             LblExcedente.Text = "";
             LblEstado.Text = "";
             Close();
-
         }
-
         private void LblValor_Click(object sender, EventArgs e)
         {
-
         }
-
         private void FrmCalculos_Load(object sender, EventArgs e)
         {            
         }
